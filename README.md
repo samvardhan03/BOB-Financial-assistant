@@ -2,17 +2,26 @@
 A Gen-AI powered financial assistant bot that will help the consumers who require assistance , whether it is about navigating the banks website or highly specific queries regarding policies , whose answers may not be easily inferable from the FAQs , especially for first time users or senior citizens and so on . Our bot also helps users get financial advice given their current assets by providing users with options about which policies might be right for them , how to manage their finances in a way that it accomplishes their objectives etc .
 
 Methodology:
+
 The approach to building this financial assistant involves integrating a React-based frontend with a Flask backend that utilizes the Azure OpenAI platform for natural language processing. The primary goals are to ensure a responsive and user-friendly interface, seamless backend communication, and scalable architecture to handle increasing load efficiently.
 Frontend Development:
 React: Chosen for its component-based architecture, allowing for modular development and easy maintenance.
+
 CSS: Used for responsive design to ensure the chatbot works well on different screen sizes.
+
 Axios: Used for making HTTP requests to the backend, providing a clean and simple way to interact with APIs.
+
 Backend Development:
+
 Flask: A lightweight and easy-to-setup web framework for handling HTTP requests and serving as the bridge between the frontend and Azure OpenAI.
+
 Azure OpenAI: Provides the necessary NLP capabilities to process user inputs and generate appropriate responses.
+
 Scalability:
 Load Balancing: Using a load balancer to distribute incoming requests across multiple instances of the backend server.
+
 Horizontal Scaling: Adding more instances of the backend service as the load increases.
+
 Caching: Implementing caching mechanisms to store frequently accessed data and reduce the load on the server.
 
 flowchart and working of the model:
